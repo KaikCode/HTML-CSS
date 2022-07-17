@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url("fontes/idroid.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, lightgreen, lightgreen);
+}
+
+header {
+    background-color: #025951;
+    color: white;
+    box-shadow: inset 0px -41px 25px -3px rgba(0, 0, 0, 0.365);    
+}
+
+header>h1 {
+    padding: 15px;
+    text-align: center;
+}
+
+
+header>p {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    padding: 7px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav>a {
+    color: white;
+}
+
+a:hover {
+    text-shadow: white;
+    box-shadow: inset 5px 5px 5px 5px white;
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+
+h2  {
+    font-family: 'droid', arial, sans-serif;
+    font-weight: normal;
+}
+
+p {
+    text-indent: 20px;
+    padding: 10px;
+}
+
+.titulo {
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.557), white);
+    color: #038C3E;
+}
+
+.imagem {
+    width: 100%;
+}
+
+#container1 {
+    background-color: green;
+    margin: 0px;
+    width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+
+#container2 {
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#container2>h3 {
+    color: white;
+    background-color: #025951;
+    padding: 9px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px -41px 25px -3px rgba(0, 0, 0, 0.365);  
+}
+
+.mais {
+    background-color: #b9ede8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+}
