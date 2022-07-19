@@ -14,6 +14,7 @@ section {
     display: flex;
     min-width: 320px;
     max-width: 1200px;
+    width: 100%;
 }
 
 .form, .pic {
