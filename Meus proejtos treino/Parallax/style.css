@@ -8,6 +8,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
 }
 
 #header {
@@ -32,7 +35,6 @@ body {
     height: 200px;
     margin: 400px auto;
     padding-top: 70px;
-
 }
 
 .f-section {
@@ -49,26 +51,26 @@ body {
 
 .f-section, .s-section, .t-section {
     min-height: 1000px;
-    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.parallex {
-    height: 350px;
-    background-color: rgb(15, 15, 15);
+.parallax {
+    height: auto;
+    background-color: rgb(15, 15, 25);
     color: #d7d4d4;
+    padding: 10px;
 }
 
-.parallex h1 {
+.parallax h1 {
     text-align: center;
     font-size: 3em;
     padding: 20px;
 }
 
-.parallex p {
+.parallax p {
     text-indent: 30px;
     font-size: 1em;
     text-align: justify;
